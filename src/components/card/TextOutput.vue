@@ -26,7 +26,7 @@
 
 <style scoped>
   p{
-    font-family: 'Tangerine', cursive;
+    font-family: 'Aerokids', cursive;
     font-size: 42px;
     line-height: 42px;
     text-shadow: 2px 2px 2px #aaa;

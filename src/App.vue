@@ -22,6 +22,7 @@
 </template>
 
 <script>
+  import firebaseConfig from './firebaseConfig'
   import Header from './components/Header'
   import Footer from './components/Footer'
   import cardFront from './components/card/CardFront'

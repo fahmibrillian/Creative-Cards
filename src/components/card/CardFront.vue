@@ -3,6 +3,7 @@
     <div class="row">
       <div class="col-sm-6 card edit-area">
         <text-input @displayChangedText="textValue1 = $event"></text-input>
+        <image-upload></image-upload>
         <text-input @displayChangedText="textValue2 = $event"></text-input>
         <text-input @displayChangedText="textValue3 = $event"></text-input>
       </div>
@@ -18,6 +19,7 @@
 <script>
   import textInput from './TextInput'
   import textOutput from './TextOutput'
+  import imageUpload from './ImageUpload'
   export default {
     data : function (){
       return{
@@ -28,7 +30,8 @@
     },
     components : {
       textInput : textInput,
-      textOutput : textOutput
+      textOutput : textOutput,
+      imageUpload : imageUpload
     }
   }
 </script>
